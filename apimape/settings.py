@@ -26,7 +26,7 @@ SECRET_KEY = 'django-insecure-fjy6k-r+@r(kbnt27ty7wyr7u=yeyly@)$_2*j11ds&mn$_-20
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ["localhost", "127.0.0.1"]
+ALLOWED_HOSTS = ["localhost", "127.0.0.1", "0.0.0.0", "jsolorzano.com"]
 
 
 # Application definition
@@ -78,9 +78,9 @@ WSGI_APPLICATION = 'apimape.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
-        'NAME': 'db_prueba',
+        'NAME': 'db_mape_project',
         'USER': 'db_admin',
-        'PASSWORD': '12345678',
+        'PASSWORD': 'Compacompu#18',
         'HOST': 'localhost',
         'PORT': '',
     } 
